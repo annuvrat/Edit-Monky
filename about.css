@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background: url('background.jpg') no-repeat;
+    width: 90%;
+
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Glassmorphic effect */
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Glassmorphic effect */
+}
+
+h1 {
+    margin: 0;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-section {
+    background-image: url('parallax-background.jpg'); /* Replace with your image */
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.about-section h2 {
+    text-align: center;
+}
+
+.about-section p {
+    text-align: justify;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Glassmorphic effect */
+    box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.1); /* Glassmorphic effect */
+}
